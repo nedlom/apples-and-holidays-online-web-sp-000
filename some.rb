@@ -18,8 +18,8 @@ holiday_hash = {
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
 x = 
-holiday_hash.find do |key, value|
-  value.find do |key, value|
+holiday_hash.find_all do |key, value|
+  value.find_all do |key, value|
     value.include?("BBQ")
   end
 end
