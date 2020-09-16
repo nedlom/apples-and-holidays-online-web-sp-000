@@ -17,6 +17,7 @@ holiday_hash = {
    
   # return an array of holiday names (as symbols) where supply lists
   # include the string "BBQ"
+<<<<<<< HEAD
 x = 
 holiday_hash.collect do |key, value|
   value.find_all do |key, value|
@@ -25,3 +26,7 @@ holiday_hash.collect do |key, value|
 end.flatten
 
 puts x
+=======
+
+puts holiday_hash.keys
+>>>>>>> 17fd8cca207a8b23398309b0b700e77d031ac4bf
